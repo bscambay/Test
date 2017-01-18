@@ -1,0 +1,9 @@
+diff a/src/main/webapp/WEB-INF/views/home/homeSignedIn.jsp b/src/main/webapp/WEB-INF/views/home/homeSignedIn.jsp	(rejected hunks)
+@@ -533,6 +533,7 @@
+ 	<script src="./resources/js/controllers/rolecontroller.js"></script>
+ 	<script src="./resources/js/controllers/widgetsController.js"></script>
+ 	<script src="./resources/js/controllers/preferencecontroller.js"></script>
++
+ 	<script src="resources/js/controllers/chat.controller.js"></script>
+ 	<script src="resources/js/controllers/develop.controller.js"></script>
+ 
