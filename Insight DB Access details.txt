@@ -1,0 +1,19 @@
+[?3/?12/?2018 12:55 PM] Shah, Bhavin: 
+Hi Oluyemi , need your help for getting DB access, James asked me to get help from you. Please let me know best time to discuss with you.
+[?3/?12/?2018 1:51 PM] Fawehinmi, Oluyemi A. Contractor: 
+__https://confluence.ba.ssa.gov/display/INS/Security+Profiles 
+[?3/?12/?2018 1:57 PM] Fawehinmi, Oluyemi A. Contractor: 
+in PCOM type logon applid=cevoha2
+to reset password
+[?3/?12/?2018 1:59 PM] Fawehinmi, Oluyemi A. Contractor: 
+db2_server = 'DSNDSGD0'
+midib_hn = 'DSNDSGD0.SSATST1.SSPF.SSA.GOV'
+midib_port = '33500'
+midib_uid = '<pin>'
+midib_pw = '<pwd>' db2_server = 'DSNDSGD0'
+midib_hn = 'DSNDSGD0.SSATST1.SSPF.SSA.GOV'
+db2_server = 'DSNDSGD0'
+midib_hn = 'DSNDSGD0.SSATST1.SSPF.SSA.GOV'
+midib_port = '33500'
+midib_uid = '<pin>'
+midib_pw = '<pwd>' 

@@ -1,0 +1,6 @@
+[?3/?15/?2018 1:59 PM] Wood, James O.: 
+pip wont work untill you set the pip.ini file
+from the readme.md file in the repos
+robocopy \\s1ff600\resources <c:\ProgramData\Pip pip.ini> /NFL /NDL /s 
+https://stash.ba.ssa.gov/projects/INS/repos/insight_analysis_oao/browse 
+the instructions are here

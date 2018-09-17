@@ -1,0 +1,42 @@
+[?3/?15/?2018 1:59 PM] Wood, James O.: 
+pip wont work untill you set the pip.ini file
+from the readme.md file in the repos
+robocopy \\s1ff600\resources <c:\ProgramData\Pip pip.ini> /NFL /NDL /s 
+https://stash.ba.ssa.gov/projects/INS/repos/insight_analysis_oao/browse 
+the instructions are here
+
+
+
+cd c:\ws\repos
+git clone ssh://git@stash.ba.ssa.gov/ins/insight_analysis_oao.git
+cd insight_analysis_oao
+
+
+Install dependancies
+robocopy \\s1ff600\resources c:\ProgramData\Pip pip.ini /NFL /NDL /s
+pip install -r requires.txt
+
+
+Testing
+
+Note:
+Tox will take a while to run upon first invocation. Tox run a second time runs much faster because it keeps track of virtualenv details and will not recreate or re-install dependencies.
+pip install tox
+
+
+unit test
+tox -e test-scripts
+
+
+code coverage
+tox -e cov-report
+
+
+lint
+tox -e lint
+
+
+run all
+tox or tox -v
+
+

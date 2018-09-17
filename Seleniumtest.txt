@@ -1,0 +1,120 @@
+Run following from commandline:end use second commandline to run Test file mentioned below:
+
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+*********************
+C:\WS\Repos\insight_analysis_oao>python ifs_bottle_oao.py
+Bottle v0.12.11 server starting up (using CherryPyServer())...
+Listening on http://localhost:8190/
+Hit Ctrl-C to quit.
+******************
+****************************Testing New PY file***************************
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source         
+KERNELBASE.dll     00007FFB0C436634  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB0D0F8102  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB0FBEC5B4  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source         
+KERNELBASE.dll     00007FFB0C436634  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB0D0F8102  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB0FBEC5B4  Unknown               Unknown  Unknown
+
+C:\WS\Repos\insight_analysis_oao>python testdata.py
+python: can't open file 'testdata.py': [Errno 2] No such file or directory
+
+C:\WS\Repos\insight_analysis_oao>python .\test\testdata.py
+  File ".\test\testdata.py", line 18
+SyntaxError: Non-ASCII character '\xe2' in file .\test\testdata.py on line 18, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\WS\Repos\insight_analysis_oao>python .\\test\\testdata.py
+  File ".\\test\\testdata.py", line 18
+SyntaxError: Non-ASCII character '\xe2' in file .\\test\\testdata.py on line 18, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\WS\Repos\insight_analysis_oao>python selenium-testdata.py
+python: can't open file 'selenium-testdata.py': [Errno 2] No such file or directory
+
+C:\WS\Repos\insight_analysis_oao>python test\\testdata.py
+  File "test\\testdata.py", line 18
+SyntaxError: Non-ASCII character '\xe2' in file test\\testdata.py on line 18, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+C:\WS\Repos\insight_analysis_oao>python testdata.py
+python: can't open file 'testdata.py': [Errno 2] No such file or directory
+********************************************************************
+C:\WS\Repos\insight_analysis_oao>
+
+*********************Testfile***********************************
+
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\>pip freeze
+astroid==1.5.3
+backports.functools-lru-cache==1.4
+beautifulsoup4==4.6.0
+bottle==0.12.11
+bs4==0.0.1
+CherryPy==7.1.0
+colorama==0.3.9
+configparser==3.5.0
+Cython==0.27.1
+DateTime==4.2
+enum34==1.1.6
+ibm-db==2.0.7
+isort==4.2.15
+lazy-object-proxy==1.3.1
+lxml==4.1.1
+mccabe==0.6.1
+nltk==3.2.5
+nose==1.3.7
+numpy==1.13.3+mkl
+pandas==0.20.3
+psycopg2==2.7.1
+pylint==1.7.4
+pyodbc==4.0.21
+pypyodbc==1.3.3
+python-dateutil==2.5.3
+python-docx==0.8.6
+python-Levenshtein==0.12.0
+pytz==2017.3
+regex==2016.11.21
+requests==2.11.1
+scikit-learn==0.19.1
+scipy==0.19.1
+singledispatch==3.4.0.3
+six==1.11.0
+sklearn==0.0
+SQLAlchemy==1.1.15
+Tempita==0.5.2
+Unidecode==0.4.20
+wrapt==1.10.11
+zope.interface==4.4.3
+***********Selenium Installation*************
+C:\>pip install selenium
+Collecting selenium
+  Downloading https://nexuspro.ba.ssa.gov/repository/python-org-central/packages/2c/10/5ed4ece1869781c4420de7983fcb2f1bf6522a5d6f6bd0b634ce057f4984/selenium-3.8.0-py2.py3-none-any.whl (941kB)
+    100% |################################| 942kB 5.4MB/s
+Installing collected packages: selenium
+Successfully installed selenium-3.8.0
+************End Selenium Installation***********************
+C:\>python
+Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:25:58) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import selenium
+>>>
+^C
+C:\>python
+Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:25:58) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from selenium import webdriver
+>>> driver=webdriver.Ie("C:\\IEDriver\\IEDriverServer.exe")
+>>> driver=webdriver.Ie("C:\\IEDriver\\IEDriverServer.exe").get("http://localhost:8190/oaoapp/444")
+>>>
+
+
+************Selenium Libraries and Documents*******************
+http://docs.seleniumhq.org/docs/03_webdriver.jsp#internet-explorer-driver
+[2] https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+[3] https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver#required-configuration
+
+*****************************
