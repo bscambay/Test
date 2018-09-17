@@ -1,0 +1,10 @@
+SQL Data and Column Query:
+exec sp_columns claimdisp
+
+PostgreSQL:
+SELECT attname, format_type(atttypid, atttypmod) AS type
+FROM   pg_attribute
+WHERE  attrelid = 'databasechangelog'::regclass
+AND    attnum > 0
+AND    NOT attisdropped
+ORDER  BY attnum;
