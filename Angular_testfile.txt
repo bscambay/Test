@@ -1,0 +1,40 @@
+ <!--<div>
+            Name: {{country.Name}}
+        </div>
+        <div>
+           <img ng-src="{{country.flag}}" style="height:60px;width:80px"/>
+        </div>-->
+
+        <!--<input type="text" ng-model="greeting" />
+        <br />
+        {{message}}
+
+        <br />
+
+        {{greeting}}-->
+
+        <!--<table>
+            <tr>
+
+                <td>
+                    <input tyep="text" ng-model="employee.firstname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input tyep="text" ng-model="employee.lastname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input tyep="text" ng-model="employee.gender" />
+                </td>
+            </tr>
+
+        </table>
+
+       {{employee.firstname}}
+        <br />
+        {{employee.lastname}}
+        <br />
+        {{employee.gender}}-->

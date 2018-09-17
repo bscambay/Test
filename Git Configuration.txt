@@ -1,0 +1,39 @@
+406497@S16103D MINGW32 /
+$ git init
+Initialized empty Git repository in C:/Program Files/Git/.git/
+
+406497@S16103D MINGW32 / (master)
+$ git config --global user.name "Bhavin, Shah"
+
+406497@S16103D MINGW32 / (master)
+$ git config --global user.email "Bhavin.Shah@ssa.gov"
+
+406497@S16103D MINGW32 / (master)
+$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/406497/.ssh/id_rsa):
+Created directory '/c/Users/406497/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/406497/.ssh/id_rsa.
+Your public key has been saved in /c/Users/406497/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:kW1He9eaxPinsTS9ByMz5aQe1O5+ftpzM8AKwkF/UzE 406497@S16103D
+The key's randomart image is:
++---[RSA 4096]----+
+|            .E.  |
+|       . o . *. .|
+|      . + o * B o|
+|       . + = X = |
+|      . S . O % o|
+|       o . . X O.|
+|        . . o =..|
+|           . . ==|
+|              o+O|
++----[SHA256]-----+
+
+406497@S16103D MINGW32 / (master)
+$ ^C
+
+406497@S16103D MINGW32 / (master)
+$

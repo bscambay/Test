@@ -1,0 +1,48 @@
+Good Morning Joseph, do you have few minutes to talk.
+Sure
+Just a quick question, were you able to get our slackclone configured and running here in office ?
+I had an issue with SQL lite
+Paul was able to 
+I an also not able to get SQlite .. do you have the latest code ?  if yes can you share in folder for just 5 minutes ?  I will copy it on my PC .
+give me a moment
+where is the folder
+sure take your time... when ready please let me know.
+I have the folder 
+I just need the location
+I can share folder from my PC and send you link.
+So which is the folder?
+Please try to copy in following folder.
+D:\Bhavin 
+\\S16103D\Bhavin
+are you able to open folder ?
+no 
+I have another folder
+give me a moment
+Please try again , I have shared it with you now.
+Should be done
+Thank you, I saw that project has been copied over, another question is do you had to set anything in Environment variable ? just want to verify with you and compare mine .
+Yes
+I added D:\NodeJS\node-v6.5.0-win-x86 
+to the path 
+that is where my Node JS is found 
+any proxy settings ?
+yes 
+can you please share with me ?
+I'm looking
+proxy = "__http://access.lb.ssa.gov:80/"
+https-proxy = "__https://access.lb.ssa.gov:80/"
+strict-ssl = false
+This was added in user variables or System variables ?
+npm config
+and what was the variable name and value ? for node also you added in path variable?
+npm config set proxy __http://access.lb.ssa.gov:80/
+npm config set https-proxy = __https://access.lb.ssa.gov:80/
+there should be no equal sign 
+npm config set https-proxy __https://access.lb.ssa.gov:80/ 
+npm config set strict-ssl false
+  node variable was set in path ? D:\NodeJS\node-v6.5.0-win-x86 this was added in PATH variable ? 
+yes
+Thank you very much for your help , I will do it again as you have mentioned, I had added yesterday npm commands directly in my environment variable and it did work for while but once rebooted PC they were all gone.
+***************************************************************************
+https://www.youtube.com/watch?v=t7zRnJspAk8
+https://www.youtube.com/watch?v=fFgLjwHcYdo

@@ -1,0 +1,172 @@
+406497@S16103D MINGW32 ~
+$ ls -la
+total 18429
+drwxr-xr-x 1 406497 1049089        0 Oct 13 10:14 ./
+drwxr-xr-x 1 406497 1049089        0 Jun 20 10:04 ../
+-rw-r--r-- 1 406497 1049089      261 Oct 13 10:14 .bash_history
+drwxr-xr-x 1 406497 1049089        0 Jul 27 14:44 .cisco/
+drwxr-xr-x 1 406497 1049089        0 Sep  8 11:24 .config/
+drwxr-xr-x 1 406497 1049089        0 Aug 30 16:06 .dnx/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 09:17 .eclipse/
+-rw-r--r-- 1 406497 1049089       57 Oct 13 09:19 .gitconfig
+-rw-r--r-- 1 406497 1049089      196 Sep  8 10:52 .npmrc
+drwxr-xr-x 1 406497 1049089        0 Aug 30 16:15 .nuget/
+drwxr-xr-x 1 406497 1049089        0 Jul 29 15:29 .oracle_jre_usage/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:22 .ssh/
+drwxr-xr-x 1 406497 1049089        0 Jul 14 10:53 .vscode/
+drwxr-xr-x 1 406497 1049089        0 Sep 17  2015 AppData/
+lrwxrwxrwx 1 406497 1049089       31 Jun 17 15:05 'Application Data' -> /c/Users                /406497/AppData/Roaming/
+-rw-r--r-- 1 406497 1049089     1530 Sep  9 15:01 bundle_crt.cer
+-rw-r--r-- 1 406497 1049089   272795 Nov 30  2015 ca-bundle.crt
+-rw-r--r-- 1 406497 1049089   365967 Nov 30  2015 ca-bundle.trust.crt
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Contacts/
+lrwxrwxrwx 1 406497 1049089       57 Jun 17 15:05 Cookies -> /c/Users/406497/App                Data/Roaming/Microsoft/Windows/Cookies/
+drwxr-xr-x 1 406497 1049089        0 Sep  8 15:48 copy_slackclone/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 08:59 Desktop/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:36 Documents/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:00 Downloads/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 10:12 eclipse/
+drwxr-xr-x 1 406497 1049089        0 Sep  7 07:11 Favorites/
+-rw-r--r-- 1 406497 1049089      228 Jul 12 09:20 GUIBuilderConfiguration.proper                ties
+-rw-r--r-- 1 406497 1049089     3243 Oct 13 09:22 id_rsa
+-rw-r--r-- 1 406497 1049089      740 Oct 13 09:22 id_rsa.pub
+drwxr-xr-x 1 406497 1049089        0 Oct 13 08:34 IntelGraphicsProfiles/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 08:58 JavaProjects/
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Links/
+lrwxrwxrwx 1 406497 1049089       29 Jun 17 15:05 'Local Settings' -> /c/Users/4                06497/AppData/Local/
+drwxr-xr-x 1 406497 1049089        0 Sep 18  2015 'mcafee dlp quarantined files'                /
+drwxr-xr-x 1 406497 1049089        0 Sep  9 13:00 Music/
+lrwxrwxrwx 1 406497 1049089       25 Jun 17 15:05 'My Documents' -> /c/Users/406                497/Documents/
+lrwxrwxrwx 1 406497 1049089       67 Jun 17 15:05 NetHood -> '/c/Users/406497/Ap                pData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 406497 1049089 15466496 Oct 13 10:16 NTUSER.DAT
+-rw-r--r-- 1 406497 1049089   262144 Oct 13 10:16 ntuser.dat.LOG1
+-rw-r--r-- 1 406497 1049089        0 Jun 17 15:05 ntuser.dat.LOG2
+-rw-r--r-- 1 406497 1049089    65536 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-                8bed-001e0bcd1824}.TM.blf
+-rw-r--r-- 1 406497 1049089   524288 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-                8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 406497 1049089   524288 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-                8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 406497 1049089       20 Sep 17  2015 ntuser.ini
+-r--r--r-- 1 406497 1049089    85876 Oct 11 06:17 ntuser.pol
+drwxr-xr-x 1 406497 1049089        0 Sep 16 09:47 Pictures/
+lrwxrwxrwx 1 406497 1049089       67 Jun 17 15:05 PrintHood -> '/c/Users/406497/                AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 12:49 Projects/
+lrwxrwxrwx 1 406497 1049089       56 Jun 17 15:05 Recent -> /c/Users/406497/AppD                ata/Roaming/Microsoft/Windows/Recent/
+-rw-r--r-- 1 406497 1049089     1170 Sep 14 14:24 robconery.json
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 'Saved Games'/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 10:48 Searches/
+lrwxrwxrwx 1 406497 1049089       56 Jun 17 15:05 SendTo -> /c/Users/406497/AppD                ata/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 406497 1049089       60 Jun 17 15:05 'Start Menu' -> '/c/Users/4064                97/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 406497 1049089       59 Jun 17 15:05 Templates -> /c/Users/406497/A                ppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 406497 1049089    91907 Sep 17  2015 Undefname_Undefpurpose.0917113                6
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Videos/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 12:57 workspace/
+
+406497@S16103D MINGW32 ~
+$ cmd
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\406497>cd \ws\repos
+cd \ws\repos
+
+C:\WS\repos> git clone ssh://git@stash.ba.ssa.gov/~466115/sslack.git
+ git clone ssh://git@stash.ba.ssa.gov/~466115/sslack.git
+Cloning into 'sslack'...
+The authenticity of host 'stash.ba.ssa.gov (10.55.195.39)' can't be established.
+RSA key fingerprint is SHA256:iwu3V6v4zjpkZm+XHxfQTQkVg1lxUpDZeXZpMI0cGF4.
+Are you sure you want to continue connecting (yes/no)? Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\WS\repos>exit
+exit
+
+406497@S16103D MINGW32 ~
+$ ls -la
+total 18421
+drwxr-xr-x 1 406497 1049089        0 Oct 13 10:18 ./
+drwxr-xr-x 1 406497 1049089        0 Jun 20 10:04 ../
+-rw-r--r-- 1 406497 1049089      261 Oct 13 10:14 .bash_history
+drwxr-xr-x 1 406497 1049089        0 Jul 27 14:44 .cisco/
+drwxr-xr-x 1 406497 1049089        0 Sep  8 11:24 .config/
+drwxr-xr-x 1 406497 1049089        0 Aug 30 16:06 .dnx/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 09:17 .eclipse/
+-rw-r--r-- 1 406497 1049089       57 Oct 13 09:19 .gitconfig
+-rw-r--r-- 1 406497 1049089      196 Sep  8 10:52 .npmrc
+drwxr-xr-x 1 406497 1049089        0 Aug 30 16:15 .nuget/
+drwxr-xr-x 1 406497 1049089        0 Jul 29 15:29 .oracle_jre_usage/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:22 .ssh/
+drwxr-xr-x 1 406497 1049089        0 Jul 14 10:53 .vscode/
+drwxr-xr-x 1 406497 1049089        0 Sep 17  2015 AppData/
+lrwxrwxrwx 1 406497 1049089       31 Jun 17 15:05 'Application Data' -> /c/Users/406497/AppData/Roaming/
+-rw-r--r-- 1 406497 1049089     1530 Sep  9 15:01 bundle_crt.cer
+-rw-r--r-- 1 406497 1049089   272795 Nov 30  2015 ca-bundle.crt
+-rw-r--r-- 1 406497 1049089   365967 Nov 30  2015 ca-bundle.trust.crt
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Contacts/
+lrwxrwxrwx 1 406497 1049089       57 Jun 17 15:05 Cookies -> /c/Users/406497/AppData/Roaming/Microsoft/Windows/Cookies/
+drwxr-xr-x 1 406497 1049089        0 Sep  8 15:48 copy_slackclone/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 08:59 Desktop/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:36 Documents/
+drwxr-xr-x 1 406497 1049089        0 Oct 13 09:00 Downloads/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 10:12 eclipse/
+drwxr-xr-x 1 406497 1049089        0 Sep  7 07:11 Favorites/
+-rw-r--r-- 1 406497 1049089      228 Jul 12 09:20 GUIBuilderConfiguration.properties
+drwxr-xr-x 1 406497 1049089        0 Oct 13 08:34 IntelGraphicsProfiles/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 08:58 JavaProjects/
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Links/
+lrwxrwxrwx 1 406497 1049089       29 Jun 17 15:05 'Local Settings' -> /c/Users/406497/AppData/Local/
+drwxr-xr-x 1 406497 1049089        0 Sep 18  2015 'mcafee dlp quarantined files'/
+drwxr-xr-x 1 406497 1049089        0 Sep  9 13:00 Music/
+lrwxrwxrwx 1 406497 1049089       25 Jun 17 15:05 'My Documents' -> /c/Users/406497/Documents/
+lrwxrwxrwx 1 406497 1049089       67 Jun 17 15:05 NetHood -> '/c/Users/406497/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 406497 1049089 15466496 Oct 13 10:23 NTUSER.DAT
+-rw-r--r-- 1 406497 1049089   262144 Oct 13 10:23 ntuser.dat.LOG1
+-rw-r--r-- 1 406497 1049089        0 Jun 17 15:05 ntuser.dat.LOG2
+-rw-r--r-- 1 406497 1049089    65536 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
+-rw-r--r-- 1 406497 1049089   524288 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 406497 1049089   524288 Jun 17 15:14 NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 406497 1049089       20 Sep 17  2015 ntuser.ini
+-r--r--r-- 1 406497 1049089    85876 Oct 11 06:17 ntuser.pol
+drwxr-xr-x 1 406497 1049089        0 Sep 16 09:47 Pictures/
+lrwxrwxrwx 1 406497 1049089       67 Jun 17 15:05 PrintHood -> '/c/Users/406497/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 12:49 Projects/
+lrwxrwxrwx 1 406497 1049089       56 Jun 17 15:05 Recent -> /c/Users/406497/AppData/Roaming/Microsoft/Windows/Recent/
+-rw-r--r-- 1 406497 1049089     1170 Sep 14 14:24 robconery.json
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 'Saved Games'/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 10:48 Searches/
+lrwxrwxrwx 1 406497 1049089       56 Jun 17 15:05 SendTo -> /c/Users/406497/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 406497 1049089       60 Jun 17 15:05 'Start Menu' -> '/c/Users/406497/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 406497 1049089       59 Jun 17 15:05 Templates -> /c/Users/406497/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 406497 1049089    91907 Sep 17  2015 Undefname_Undefpurpose.09171136
+drwxr-xr-x 1 406497 1049089        0 Jun 17 15:10 Videos/
+drwxr-xr-x 1 406497 1049089        0 Oct 12 12:57 workspace/
+
+406497@S16103D MINGW32 ~
+$ cd ..
+
+406497@S16103D MINGW32 /c/Users
+$ cd ..
+
+406497@S16103D MINGW32 /c
+$ cd ws
+
+406497@S16103D MINGW32 /c/ws
+$ cd repos
+
+406497@S16103D MINGW32 /c/ws/repos (master)
+$ git clone ssh://git@stash.ba.ssa.gov/~466115/sslack.git
+Cloning into 'sslack'...
+The authenticity of host 'stash.ba.ssa.gov (10.55.195.39)' can't be established.
+RSA key fingerprint is SHA256:iwu3V6v4zjpkZm+XHxfQTQkVg1lxUpDZeXZpMI0cGF4.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'stash.ba.ssa.gov,10.55.195.39' (RSA) to the list of known hosts.
+remote: Counting objects: 261, done.
+remote: Compressing objects: 100% (209/209), done.
+remote: Total 261 (delta 50), reused 239 (delta 39)
+Receiving objects: 100% (261/261), 2.11 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (50/50), done.
+Checking out files: 100% (193/193), done.
+
+406497@S16103D MINGW32 /c/ws/repos (master)
+$
