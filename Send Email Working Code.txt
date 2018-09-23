@@ -1,0 +1,40 @@
+private void btnSend_Click(object sender, System.EventArgs e)
+		{
+			
+			
+			UTF8Encoding objUTF8 = new UTF8Encoding();
+			WebResponse objResponse;
+			string message;
+			using (StreamReader sr = 
+					   new StreamReader((@"C:\Download\Enews.htm")) )
+			{
+				 message = sr.ReadToEnd();
+				// Close and clean up the StreamReader
+				sr.Close();
+				
+			}
+	
+
+			if (Page.IsValid) 
+			{
+				Trace.Write("Submit", "Page is valid -- send email.");
+
+				try
+				{
+					MailMessage Mailer = new MailMessage();
+					Mailer.From = "Bshah@TravelSavers.com";
+					Mailer.To = "Bshah@TravelSavers.com";
+					Mailer.Subject = "Enews Letter";
+					Mailer.Body =message;
+					Mailer.BodyFormat = System.Web.Mail.MailFormat.Html;
+					SmtpMail.SmtpServer = "tspd_web1";
+					SmtpMail.Send(Mailer);
+					//lblResult.Text = "Page successfully sent!";
+					//litSent.Text = message;
+				}
+				catch(Exception ex)
+				{
+					//lblResult.Text = "An error occurred: " + ex.ToString();
+				}
+					
+			}
